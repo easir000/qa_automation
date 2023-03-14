@@ -29,7 +29,7 @@ class MyTest(object):
         elem  =  self.driver.find_element(by=By.XPATH, value= '/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[2]').send_keys("May")
         elem  =  self.driver.find_element(by=By.XPATH, value= '/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[3]').send_keys("1995")
         elem  =  self.driver.find_element(by=By.XPATH, value= '//*[@id="Email"]').send_keys("easir9566@gmail.com")
-        elem  =  self.driver.find_element(by=By.XPATH, value= '//*[@id="Company"]').send_keys("Brainstation-23")
+        elem  =  self.driver.find_element(by=By.XPATH, value= '//*[@id="Company"]').send_keys("Rapid_Lodgment")
         elem  =  self.driver.find_element(by=By.XPATH, value= '//*[@id="Newsletter"]').get_attribute('checked')
         elem  =  self.driver.find_element(by=By.XPATH, value= '//*[@id="Password"]').send_keys("hellobrain")
         elem  =  self.driver.find_element(by=By.XPATH, value= '//*[@id="ConfirmPassword"]').send_keys("hellobrain")
